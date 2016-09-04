@@ -9,8 +9,5 @@ define('APP', ROOT . 'application' . DIRECTORY_SEPARATOR);
 
 require APP . 'config/config.php';
 
-//Şimdilik Kalacak, ilerde ilgilenilecek
-//require APP . 'libs/helper.php';
-
 // start the application
 $app = new Application();
