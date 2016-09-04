@@ -1,0 +1,31 @@
+{
+  "name": "islevmvc",
+  "type": "islevmvc",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Mustafa",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.0",
+    "doctrine/dbal": "v2.5.4",
+    "altorouter/altorouter": "1.1.0",
+    "imagine/imagine": "0.6.2"
+  },
+  "autoload": {
+    "classmap": [
+      "application/model",
+      "application/controller"
+    ],
+    "psr-4": {
+      "": [
+        "application/model",
+        "application/controller",
+        "application/core",
+        "application/libs"
+      ]
+    }
+  }
+}
