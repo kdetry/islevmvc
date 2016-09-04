@@ -2,11 +2,13 @@
 
 class HeaderController extends BaseController
 {
-    public function __construct() {
+    public function __construct()
+    {
         parent::__construct();
     }
 
-    public function getHeader(){
+    public function getHeader()
+    {
         $document = new Document;
         $data['meta_title'] = $document->getTitle();
         $data['meta_description'] = $document->getDescription();

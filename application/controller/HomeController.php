@@ -2,11 +2,13 @@
 
 class HomeController extends BaseController
 {
-    public function __construct() {
+    public function __construct()
+    {
         parent::__construct();
     }
 
-    public function index(){
+    public function index()
+    {
         $document = new Document();
         $document->setTitle('Hello Title');
         $document->setDescription('This is Hello description');
@@ -15,8 +17,8 @@ class HomeController extends BaseController
         $header = $headerController->getHeader();
 
         $data = array(
-            'header'    =>  $header,
-            'content'   =>  'Hello HomeController !'
+            'header' => $header,
+            'content' => 'Hello HomeController !'
         );
 
         $response = new Response();
