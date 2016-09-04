@@ -1,3 +1,3 @@
 <?php
 
-$router->map('GET', '/foo', 'FooController#bar', 'FooBar');
+$router->map('GET', '/', 'HomeController#index', 'Home');
