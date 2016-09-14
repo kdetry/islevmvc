@@ -1,7 +1,7 @@
 <?php
 class Response
 {
-    const APP = '/';
+
     private $headers = array();
     private $level = 0;
     private $output;
