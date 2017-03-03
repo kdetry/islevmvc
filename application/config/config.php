@@ -40,8 +40,8 @@ if (ENVIRONMENT == 'development' || ENVIRONMENT == 'dev') {
  * then replace this line with full URL (and sub-folder) and a trailing slash.
  */
 
-define('BASE_PATH', '/');
-define('BASE_URL', '');
+define('BASE_PATH', __DIR__.'/../');
+define('BASE_URL', '/');
 define('IMG_FOLDER_URL', '');
 define('IMG_FOLDER', '');
 define('URL_PUBLIC_FOLDER', 'public');

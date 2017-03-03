@@ -1,5 +1,5 @@
 <?php
-define('ROOT', '/home2/bebepuf/public_html/mvc11/');
+define('ROOT', __DIR__.'/../');
 
 if (file_exists(ROOT . 'vendor/autoload.php')) {
     require ROOT . 'vendor/autoload.php';
