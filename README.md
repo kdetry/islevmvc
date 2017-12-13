@@ -1,7 +1,8 @@
 # islevMVC
 islevMVC is a simple and lightweight framework. It is compatible with PSR-4 standards generally and easy to learn.
 
-Do not forget install dependencies
+Do not forget install dependencies.
+<b>This MVC framework for using on education.</b>
 
 ```
 php composer.phar install
